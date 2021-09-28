@@ -6,6 +6,7 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
+        <img src="./web-dev.PNG" alt="icon"></img>
         <Navbar.Brand href="#home">Jacob L. Adamson</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
