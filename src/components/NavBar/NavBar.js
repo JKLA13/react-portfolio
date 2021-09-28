@@ -28,8 +28,14 @@ function NavBar() {
             </NavDropdown> */}
           </Nav>
           <Nav>
-            <Nav.Link href="#">Github</Nav.Link>
-            <Nav.Link eventKey={2} href="#">
+            <Nav.Link href="https://github.com/JKLA13" target="_blank">
+              Github
+            </Nav.Link>
+            <Nav.Link
+              eventKey={2}
+              href="https://www.linkedin.com/in/jacob-adamson-535769103/"
+              target="_blank"
+            >
               LinkedIn
             </Nav.Link>
           </Nav>
