@@ -11,7 +11,7 @@ function Home() {
   return (
     //   about me section
     <>
-      <Container>
+      <Container className="mt-2">
         <Row>
           <Col sm={1}>About Me</Col>
           <Col sm={3}>
@@ -28,7 +28,7 @@ function Home() {
         </Row>
       </Container>
       {/* // Portfolio section */}
-      <Container>
+      <Container className="mt-2">
         <Row>
           <Col sm={1}>Portfolio</Col>
           <Col sm={11}>
@@ -52,6 +52,7 @@ function Home() {
           </Col>
         </Row>
       </Container>
+      {/* Contact Section */}
     </>
   );
 }
