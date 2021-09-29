@@ -6,6 +6,14 @@ import Picture from "../../assets/images/folio-pic.PNG";
 import Image from "react-bootstrap/Image";
 // import React, { component } from "react";
 import Card from "react-bootstrap/Card";
+// seperaration
+// import ReactDOM from "react-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+
+// const element = <FontAwesomeIcon icon={faCoffee} />;
+
+// ReactDOM.render(element, document.body);
 
 function Home() {
   return (
@@ -57,7 +65,13 @@ function Home() {
         <Row>
           <Col sm={2}>Contact</Col>
           <Col sm={10}>
-            <Row>Contact Icons...</Row>
+            <Row>
+              Contact Icons...
+              <FontAwesomeIcon icon="fa-solid fa-circle-phone" />
+              <FontAwesomeIcon icon="fa-solid fa-circle-envelope" />
+              <FontAwesomeIcon icon="fa-brands fa-github" />
+              <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+            </Row>
           </Col>
         </Row>
       </Container>
