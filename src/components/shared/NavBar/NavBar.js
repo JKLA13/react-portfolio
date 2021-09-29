@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Image src={Picture} className="me-3" />
+        <Image src={Picture} className="me-3 img-fluid" />
         <Navbar.Brand href="#home">Jacob L. Adamson</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -26,18 +26,6 @@ function NavBar() {
               Resume
             </Nav.Link>
           </Nav>
-          {/* <Nav>
-            <Nav.Link href="https://github.com/JKLA13" target="_blank">
-              Github
-            </Nav.Link>
-            <Nav.Link
-              eventKey={2}
-              href="https://www.linkedin.com/in/jacob-adamson-535769103/"
-              target="_blank"
-            >
-              LinkedIn
-            </Nav.Link>
-          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

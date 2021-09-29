@@ -11,13 +11,13 @@ function Home() {
   return (
     //   about me section
     <>
-      <Container className="mt-2">
+      <Container className="AboutMe mt-3">
         <Row>
-          <Col sm={1}>About Me</Col>
+          <Col sm={2}>About Me</Col>
           <Col sm={3}>
             <Image src={Picture} className="img-fluid" />
           </Col>
-          <Col sm={8}>
+          <Col sm={7}>
             <p>
               Hello, I'm Jacob L. Adamson. I am a Full Stack Web Developer
               (MERN), and I am beyond excited to keep coding and learning. My
@@ -28,10 +28,10 @@ function Home() {
         </Row>
       </Container>
       {/* // Portfolio section */}
-      <Container className="mt-2">
+      <Container className="Portfolio mt-3">
         <Row>
-          <Col sm={1}>Portfolio</Col>
-          <Col sm={11}>
+          <Col sm={2}>Portfolio</Col>
+          <Col sm={10}>
             <Row xs={1} md={2} className="g-4">
               {Array.from({ length: 6 }).map((_, idx) => (
                 <Col>
@@ -53,6 +53,14 @@ function Home() {
         </Row>
       </Container>
       {/* Contact Section */}
+      <Container className="AboutMe mt-3">
+        <Row>
+          <Col sm={2}>Contact</Col>
+          <Col sm={10}>
+            <Row>Contact Icons...</Row>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }
