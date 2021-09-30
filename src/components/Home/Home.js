@@ -14,12 +14,13 @@ import FolioThree from "../../assets/images/budget-tracker.PNG";
 import FolioFour from "../../assets/images/fitness-tracker.PNG";
 import FolioFive from "../../assets/images/work-day-planner.PNG";
 import FolioSix from "../../assets/images/scratch-game.PNG";
+import "./home.css";
 // seperaration
 // import ReactDOM from "react-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 // import "font-awesome/css/font-awesome.min.css";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-// const element = <FontAwesomeIcon icon={faCoffee} />;
+
 // ReactDOM.render(element, document.body);
 
 function Home() {
@@ -258,8 +259,11 @@ function Home() {
           </Col>
           <Col sm={10}>
             <Row>
-              <a href="tel:+13039218358">303.921.8358</a>
+              <a href="tel:+13039218358">
+                <i class="fas fa-phone-square-alt"></i> 303.921.8358
+              </a>
               <a href="mailto:jakeladamson0@gmail.com">
+                <i className="fas fa-envelope-square"></i>{" "}
                 jakeladamson0@gmail.com
               </a>
               <a
@@ -267,20 +271,15 @@ function Home() {
                 target="_blank"
                 rel="noreferrer"
               >
-                GitHub
+                <i class="fab fa-github-square"></i> GitHub
               </a>
               <a
                 href="https://www.linkedin.com/in/jacob-adamson-535769103/"
                 target="_blank"
                 rel="noreferrer"
               >
-                LinkedIn
+                <i class="fab fa-linkedin"></i> LinkedIn
               </a>
-              {/* Contact Icons...
-              <FontAwesomeIcon icon="fa-solid fa-circle-phone" />
-              <FontAwesomeIcon icon="fa-solid fa-circle-envelope" />
-              <FontAwesomeIcon icon="fa-brands fa-github" />
-              <FontAwesomeIcon icon="fa-brands fa-linkedin" /> */}
             </Row>
           </Col>
         </Row>
