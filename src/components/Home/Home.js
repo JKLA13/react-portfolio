@@ -90,7 +90,7 @@ function Home() {
                     GitHub
                   </Button>
                   <Button
-                    variant="secondary"
+                    variant="primary"
                     href="https://warehouse-manager-nw.herokuapp.com/"
                     target="_blank"
                     className="pl-2"
@@ -120,7 +120,7 @@ function Home() {
                     GitHub
                   </Button>
                   <Button
-                    variant="secondary"
+                    variant="primary"
                     href="https://havoxprime.github.io/cocktailAndFood/foodpage.html"
                     target="_blank"
                     className="ml-2"
@@ -149,7 +149,7 @@ function Home() {
                     GitHub
                   </Button>
                   <Button
-                    variant="secondary"
+                    variant="primary"
                     href="https://budget-tracker-jkla.herokuapp.com/"
                     target="_blank"
                     className="ml-2"
@@ -180,7 +180,7 @@ function Home() {
                     GitHub
                   </Button>
                   <Button
-                    variant="secondary"
+                    variant="primary"
                     href="https://fitness-tracker-jkla.herokuapp.com/"
                     target="_blank"
                     className="ml-2"
@@ -208,7 +208,7 @@ function Home() {
                     GitHub
                   </Button>
                   <Button
-                    variant="secondary"
+                    variant="primary"
                     href="https://jkla13.github.io/work-day-planner/"
                     target="_blank"
                     className="ml-2"
@@ -231,7 +231,7 @@ function Home() {
                 <Card.Footer>
                   {/* <Button variant="primary">GitHub</Button> */}
                   <Button
-                    variant="secondary"
+                    variant="primary"
                     href="https://scratch.mit.edu/projects/551826079/"
                     target="_blank"
                     className="ml-2"
