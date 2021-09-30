@@ -12,6 +12,8 @@ import FolioOne from "../../assets/images/inventory-manager.PNG";
 import FolioTwo from "../../assets/images/project1.PNG";
 import FolioThree from "../../assets/images/budget-tracker.PNG";
 import FolioFour from "../../assets/images/fitness-tracker.PNG";
+import FolioFive from "../../assets/images/work-day-planner.PNG";
+import FolioSix from "../../assets/images/scratch-game.PNG";
 // seperaration
 // import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -190,34 +192,52 @@ function Home() {
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src={FolioFive} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Workday Planner</Card.Title>
                   <Card.Text>
-                    This card has supporting text below as a natural lead-in to
-                    additional content.{" "}
+                    This Workday Planner App was built using Bootstrap, jQuery,
+                    and Node.js. The user is able to enter events for the day,
+                    with color coded hour blocks to denote time passed.{" "}
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button variant="primary">GitHub</Button>
-                  <Button variant="primary" className="ml-2">
+                  <Button
+                    variant="primary"
+                    href="https://github.com/JKLA13/work-day-planner"
+                    target="_blank"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    variant="primary"
+                    href="https://jkla13.github.io/work-day-planner/"
+                    target="_blank"
+                    className="ml-2"
+                  >
                     Deployed App
                   </Button>
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src={FolioSix} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Crabby! Game</Card.Title>
                   <Card.Text>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    ... And now for something completely different. This is a
+                    game I built in Scratch, called "Crabby!". I had an absolute
+                    blast building this game, and it's a simple, fun game to
+                    play. Enjoy!
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button variant="primary">GitHub</Button>
-                  <Button variant="primary" className="ml-2">
+                  {/* <Button variant="primary">GitHub</Button> */}
+                  <Button
+                    variant="primary"
+                    href="https://scratch.mit.edu/projects/551826079/"
+                    target="_blank"
+                    className="ml-2"
+                  >
                     Deployed App
                   </Button>
                 </Card.Footer>
