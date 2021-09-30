@@ -6,9 +6,12 @@ import Picture from "../../assets/images/folio-pic.PNG";
 import Image from "react-bootstrap/Image";
 // import React, { component } from "react";
 import Card from "react-bootstrap/Card";
+import CardGroup from "react-bootstrap/CardGroup";
+import Button from "react-bootstrap/Button";
 // seperaration
 // import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import "font-awesome/css/font-awesome.min.css";
 // import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 // const element = <FontAwesomeIcon icon={faCoffee} />;
@@ -40,7 +43,7 @@ function Home() {
         <Row>
           <Col sm={2}>Portfolio</Col>
           <Col sm={10}>
-            <Row xs={1} md={2} className="g-4">
+            {/* <Row xs={1} md={2} className="g-4">
               {Array.from({ length: 6 }).map((_, idx) => (
                 <Col>
                   <Card>
@@ -56,7 +59,111 @@ function Home() {
                   </Card>
                 </Col>
               ))}
-            </Row>
+            </Row> */}
+            <CardGroup>
+              <Card>
+                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Body>
+                  <Card.Title>Card title</Card.Title>
+                  <Card.Text>
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                  <Button variant="primary">Github</Button>
+                  <Button variant="primary" className="ml-2">
+                    Deployed App
+                  </Button>
+                </Card.Footer>
+              </Card>
+              <Card>
+                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Body>
+                  <Card.Title>Card title</Card.Title>
+                  <Card.Text>
+                    This card has supporting text below as a natural lead-in to
+                    additional content.{" "}
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                  <Button variant="primary">Github</Button>
+                  <Button variant="primary" className="ml-2">
+                    Deployed App
+                  </Button>
+                </Card.Footer>
+              </Card>
+              <Card>
+                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Body>
+                  <Card.Title>Card title</Card.Title>
+                  <Card.Text>
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                  <Button variant="primary">Github</Button>
+                  <Button variant="primary" className="ml-2">
+                    Deployed App
+                  </Button>
+                </Card.Footer>
+              </Card>
+            </CardGroup>
+            <CardGroup>
+              <Card>
+                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Body>
+                  <Card.Title>Card title</Card.Title>
+                  <Card.Text>
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                  <Button variant="primary">Github</Button>
+                  <Button variant="primary" className="ml-2">
+                    Deployed App
+                  </Button>
+                </Card.Footer>
+              </Card>
+              <Card>
+                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Body>
+                  <Card.Title>Card title</Card.Title>
+                  <Card.Text>
+                    This card has supporting text below as a natural lead-in to
+                    additional content.{" "}
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                  <Button variant="primary">Github</Button>
+                  <Button variant="primary" className="ml-2">
+                    Deployed App
+                  </Button>
+                </Card.Footer>
+              </Card>
+              <Card>
+                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Body>
+                  <Card.Title>Card title</Card.Title>
+                  <Card.Text>
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                  <Button variant="primary">Github</Button>
+                  <Button variant="primary" className="ml-2">
+                    Deployed App
+                  </Button>
+                </Card.Footer>
+              </Card>
+            </CardGroup>
           </Col>
         </Row>
       </Container>
