@@ -15,13 +15,12 @@ import FolioFour from "../../assets/images/fitness-tracker.PNG";
 import FolioFive from "../../assets/images/work-day-planner.PNG";
 import FolioSix from "../../assets/images/scratch-game.PNG";
 // seperaration
+
 // import ReactDOM from "react-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import "font-awesome/css/font-awesome.min.css";
 // import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-
 // const element = <FontAwesomeIcon icon={faCoffee} />;
-
 // ReactDOM.render(element, document.body);
 
 function Home() {
@@ -254,11 +253,29 @@ function Home() {
           </Col>
           <Col sm={10}>
             <Row>
-              Contact Icons...
+              <a href="tel:+13039218358">303.921.8358</a>
+              <a href="mailto:jakeladamson0@gmail.com">
+                jakeladamson0@gmail.com
+              </a>
+              <a
+                href="https://github.com/JKLA13"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jacob-adamson-535769103/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+              {/* Contact Icons...
               <FontAwesomeIcon icon="fa-solid fa-circle-phone" />
               <FontAwesomeIcon icon="fa-solid fa-circle-envelope" />
               <FontAwesomeIcon icon="fa-brands fa-github" />
-              <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+              <FontAwesomeIcon icon="fa-brands fa-linkedin" /> */}
             </Row>
           </Col>
         </Row>
