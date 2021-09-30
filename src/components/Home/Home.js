@@ -229,14 +229,20 @@ function Home() {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  {/* <Button variant="primary">GitHub</Button> */}
+                  <Button
+                    variant="secondary"
+                    href="https://scratch.mit.edu/projects/551826079/"
+                    target="_blank"
+                  >
+                    (Click ===
+                  </Button>
                   <Button
                     variant="primary"
                     href="https://scratch.mit.edu/projects/551826079/"
                     target="_blank"
                     className="ml-2"
                   >
-                    Game Time!
+                    Game Time!)
                   </Button>
                 </Card.Footer>
               </Card>
