@@ -15,7 +15,6 @@ import FolioFour from "../../assets/images/fitness-tracker.PNG";
 import FolioFive from "../../assets/images/work-day-planner.PNG";
 import FolioSix from "../../assets/images/scratch-game.PNG";
 // seperaration
-
 // import ReactDOM from "react-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import "font-awesome/css/font-awesome.min.css";
@@ -84,14 +83,14 @@ function Home() {
                 </Card.Body>
                 <Card.Footer>
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://github.com/nickwojt/warehouse-manager"
                     target="_blank"
                   >
                     GitHub
                   </Button>
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://warehouse-manager-nw.herokuapp.com/"
                     target="_blank"
                     className="pl-2"
@@ -114,14 +113,14 @@ function Home() {
                 </Card.Body>
                 <Card.Footer>
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://github.com/HavoxPrime/cocktailAndFood"
                     target="_blank"
                   >
                     GitHub
                   </Button>
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://havoxprime.github.io/cocktailAndFood/foodpage.html"
                     target="_blank"
                     className="ml-2"
@@ -143,14 +142,14 @@ function Home() {
                 </Card.Body>
                 <Card.Footer>
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://github.com/JKLA13/budget-tracker"
                     target="_blank"
                   >
                     GitHub
                   </Button>
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://budget-tracker-jkla.herokuapp.com/"
                     target="_blank"
                     className="ml-2"
@@ -174,14 +173,14 @@ function Home() {
                 </Card.Body>
                 <Card.Footer>
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://github.com/JKLA13/fitness-tracker"
                     target="_blank"
                   >
                     GitHub
                   </Button>
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://fitness-tracker-jkla.herokuapp.com/"
                     target="_blank"
                     className="ml-2"
@@ -202,14 +201,14 @@ function Home() {
                 </Card.Body>
                 <Card.Footer>
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://github.com/JKLA13/work-day-planner"
                     target="_blank"
                   >
                     GitHub
                   </Button>
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://jkla13.github.io/work-day-planner/"
                     target="_blank"
                     className="ml-2"
@@ -232,7 +231,7 @@ function Home() {
                 <Card.Footer>
                   {/* <Button variant="primary">GitHub</Button> */}
                   <Button
-                    variant="primary"
+                    variant="secondary"
                     href="https://scratch.mit.edu/projects/551826079/"
                     target="_blank"
                     className="ml-2"
