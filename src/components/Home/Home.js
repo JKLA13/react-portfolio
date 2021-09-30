@@ -10,6 +10,8 @@ import CardGroup from "react-bootstrap/CardGroup";
 import Button from "react-bootstrap/Button";
 import FolioOne from "../../assets/images/inventory-manager.PNG";
 import FolioTwo from "../../assets/images/project1.PNG";
+import FolioThree from "../../assets/images/budget-tracker.PNG";
+import FolioFour from "../../assets/images/fitness-tracker.PNG";
 // seperaration
 // import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -128,18 +130,30 @@ function Home() {
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src={FolioThree} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Budget Tracker</Card.Title>
                   <Card.Text>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
+                    This is a budget tracker app, built using MongoDB, IndexDB,
+                    Mongoose, and Node.js also using what I've learned building
+                    PWA's. This app is able to track user input offline or
+                    online.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button variant="primary">GitHub</Button>
-                  <Button variant="primary" className="ml-2">
+                  <Button
+                    variant="primary"
+                    href="https://github.com/JKLA13/budget-tracker"
+                    target="_blank"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    variant="primary"
+                    href="https://budget-tracker-jkla.herokuapp.com/"
+                    target="_blank"
+                    className="ml-2"
+                  >
                     Deployed App
                   </Button>
                 </Card.Footer>
@@ -147,18 +161,30 @@ function Home() {
             </CardGroup>
             <CardGroup>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src={FolioFour} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Fitness Tracker</Card.Title>
                   <Card.Text>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    A Fitness Tracker app built using MongoDB, Mongoose, and
+                    Express.js routes. The user is able to track daily workouts,
+                    and able to view a dashboard with graph views for logged
+                    cardio and weight training exercises.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button variant="primary">GitHub</Button>
-                  <Button variant="primary" className="ml-2">
+                  <Button
+                    variant="primary"
+                    href="https://github.com/JKLA13/fitness-tracker"
+                    target="_blank"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    variant="primary"
+                    href="https://fitness-tracker-jkla.herokuapp.com/"
+                    target="_blank"
+                    className="ml-2"
+                  >
                     Deployed App
                   </Button>
                 </Card.Footer>
