@@ -236,7 +236,7 @@ function Home() {
                     target="_blank"
                     className="ml-2"
                   >
-                    Deployed App
+                    Game Time!
                   </Button>
                 </Card.Footer>
               </Card>
