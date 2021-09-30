@@ -8,6 +8,8 @@ import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import Button from "react-bootstrap/Button";
+import FolioOne from "../../assets/images/inventory-manager.PNG";
+import FolioTwo from "../../assets/images/project1.PNG";
 // seperaration
 // import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,7 +26,9 @@ function Home() {
     <>
       <Container className="AboutMe mt-3">
         <Row>
-          <Col sm={2}>About Me</Col>
+          <Col sm={2}>
+            <h2>About Me</h2>
+          </Col>
           <Col sm={3}>
             <Image src={Picture} className="img-fluid" />
           </Col>
@@ -32,8 +36,8 @@ function Home() {
             <p>
               Hello, I'm Jacob L. Adamson. I am a Full Stack Web Developer
               (MERN), and I am beyond excited to keep coding and learning. My
-              other passions are writing and recording my music, as well as
-              recording other's music.{" "}
+              other passions are being a part time Recording Engineer, and I
+              love writing and recording music.{" "}
             </p>
           </Col>
         </Row>
@@ -41,7 +45,9 @@ function Home() {
       {/* // Portfolio section */}
       <Container className="Portfolio mt-3">
         <Row>
-          <Col sm={2}>Portfolio</Col>
+          <Col sm={2}>
+            <h2>Portfolio</h2>
+          </Col>
           <Col sm={10}>
             {/* <Row xs={1} md={2} className="g-4">
               {Array.from({ length: 6 }).map((_, idx) => (
@@ -62,34 +68,61 @@ function Home() {
             </Row> */}
             <CardGroup>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src={FolioOne} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Bagel Inventory</Card.Title>
                   <Card.Text>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Student project # 2, my team built a full stack app using
+                    MySQL, Node.js, and Express.js. The user is able to create a
+                    login and manipulate an bagel inventory. However, this
+                    inventory would be easily converted into a inventory
+                    management app for whatever business need.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button variant="primary">Github</Button>
-                  <Button variant="primary" className="ml-2">
+                  <Button
+                    variant="primary"
+                    href="https://github.com/nickwojt/warehouse-manager"
+                    target="_blank"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    variant="primary"
+                    href="https://warehouse-manager-nw.herokuapp.com/"
+                    target="_blank"
+                    className="pl-2"
+                  >
                     Deployed App
                   </Button>
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src={FolioTwo} />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Food and Cocktail Recipe</Card.Title>
                   <Card.Text>
-                    This card has supporting text below as a natural lead-in to
-                    additional content.{" "}
+                    Student project #1, my team built a full stack app using 3rd
+                    party APIs, Node.js, and Express.js. The app gives a user
+                    experience of being able to find food and cocktail recipes
+                    to try from the comfort of home during these trying Covid
+                    times.{" "}
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button variant="primary">Github</Button>
-                  <Button variant="primary" className="ml-2">
+                  <Button
+                    variant="primary"
+                    href="https://github.com/HavoxPrime/cocktailAndFood"
+                    target="_blank"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    variant="primary"
+                    href="https://havoxprime.github.io/cocktailAndFood/foodpage.html"
+                    target="_blank"
+                    className="ml-2"
+                  >
                     Deployed App
                   </Button>
                 </Card.Footer>
@@ -105,7 +138,7 @@ function Home() {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button variant="primary">Github</Button>
+                  <Button variant="primary">GitHub</Button>
                   <Button variant="primary" className="ml-2">
                     Deployed App
                   </Button>
@@ -124,7 +157,7 @@ function Home() {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button variant="primary">Github</Button>
+                  <Button variant="primary">GitHub</Button>
                   <Button variant="primary" className="ml-2">
                     Deployed App
                   </Button>
@@ -140,7 +173,7 @@ function Home() {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button variant="primary">Github</Button>
+                  <Button variant="primary">GitHub</Button>
                   <Button variant="primary" className="ml-2">
                     Deployed App
                   </Button>
@@ -157,7 +190,7 @@ function Home() {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button variant="primary">Github</Button>
+                  <Button variant="primary">GitHub</Button>
                   <Button variant="primary" className="ml-2">
                     Deployed App
                   </Button>
@@ -170,7 +203,9 @@ function Home() {
       {/* Contact Section */}
       <Container className="AboutMe mt-3">
         <Row>
-          <Col sm={2}>Contact</Col>
+          <Col sm={2}>
+            <h2>Contact</h2>
+          </Col>
           <Col sm={10}>
             <Row>
               Contact Icons...
