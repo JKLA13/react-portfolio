@@ -15,9 +15,6 @@ import FolioFour from "../../assets/images/fitness-tracker.PNG";
 import FolioFive from "../../assets/images/work-day-planner.PNG";
 import FolioSix from "../../assets/images/scratch-game.PNG";
 import "./home.css";
-// seperaration
-// ReactDOM.render(element, document.body);
-// import React, { component } from "react";
 
 function Home() {
   return (
@@ -48,23 +45,6 @@ function Home() {
             <h2>Portfolio</h2>
           </Col>
           <Col sm={10}>
-            {/* <Row xs={1} md={2} className="g-4">
-              {Array.from({ length: 6 }).map((_, idx) => (
-                <Col>
-                  <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
-                    <Card.Body>
-                      <Card.Title>Card title</Card.Title>
-                      <Card.Text>
-                        This is a longer card with supporting text below as a
-                        natural lead-in to additional content. This content is a
-                        little bit longer.
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-              ))}
-            </Row> */}
             <CardGroup>
               <Card>
                 <Card.Img variant="top" src={FolioOne} />

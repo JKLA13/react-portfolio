@@ -1,9 +1,7 @@
 import React from "react";
-// import Navbar from 'react-bootstrap/Button';
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-// import Picture from "../../../assets/images/web-dev.PNG";
 import Picture from "../../../assets/images/iconweb.PNG";
 import Image from "react-bootstrap/Image";
 
