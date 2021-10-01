@@ -2,16 +2,14 @@ a {
     text-decoration: none
 }
 
-main {
-    background-color: #2ca1c2;
-}
 .gitButt {
-    margin-left: 10px
-    background-color
+    margin-left: 10px;
+    background-color: #2ca1c2
 }
 
 .deployButt {
-    margin-left: 30px
+    margin-left: 30px;
+    background-color: #ab2613
 }
 
 .btnBlock {
