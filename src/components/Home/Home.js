@@ -4,10 +4,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Picture from "../../assets/images/folio-pic.PNG";
 import Image from "react-bootstrap/Image";
-// import React, { component } from "react";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 import FolioOne from "../../assets/images/inventory-manager.PNG";
 import FolioTwo from "../../assets/images/project1.PNG";
 import FolioThree from "../../assets/images/budget-tracker.PNG";
@@ -16,12 +16,8 @@ import FolioFive from "../../assets/images/work-day-planner.PNG";
 import FolioSix from "../../assets/images/scratch-game.PNG";
 import "./home.css";
 // seperaration
-// import ReactDOM from "react-dom";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
-// import "font-awesome/css/font-awesome.min.css";
-
 // ReactDOM.render(element, document.body);
+// import React, { component } from "react";
 
 function Home() {
   return (
@@ -82,8 +78,9 @@ function Home() {
                     management app for whatever business need.
                   </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer className="btnBlock">
                   <Button
+                    className="gitButt"
                     variant="secondary"
                     href="https://github.com/nickwojt/warehouse-manager"
                     target="_blank"
@@ -91,10 +88,10 @@ function Home() {
                     GitHub
                   </Button>
                   <Button
+                    className="deployButt"
                     variant="primary"
                     href="https://warehouse-manager-nw.herokuapp.com/"
                     target="_blank"
-                    className="pl-2"
                   >
                     Deployed App
                   </Button>
@@ -112,8 +109,9 @@ function Home() {
                     times.{" "}
                   </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer className="btnBlock">
                   <Button
+                    className="gitButt"
                     variant="secondary"
                     href="https://github.com/HavoxPrime/cocktailAndFood"
                     target="_blank"
@@ -121,10 +119,10 @@ function Home() {
                     GitHub
                   </Button>
                   <Button
+                    className="deployButt"
                     variant="primary"
                     href="https://havoxprime.github.io/cocktailAndFood/foodpage.html"
                     target="_blank"
-                    className="ml-2"
                   >
                     Deployed App
                   </Button>
@@ -141,8 +139,9 @@ function Home() {
                     online.
                   </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer className="btnBlock">
                   <Button
+                    className="gitButt"
                     variant="secondary"
                     href="https://github.com/JKLA13/budget-tracker"
                     target="_blank"
@@ -150,10 +149,10 @@ function Home() {
                     GitHub
                   </Button>
                   <Button
+                    className="deployButt"
                     variant="primary"
                     href="https://budget-tracker-jkla.herokuapp.com/"
                     target="_blank"
-                    className="ml-2"
                   >
                     Deployed App
                   </Button>
@@ -172,8 +171,9 @@ function Home() {
                     cardio and weight training exercises.
                   </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer className="btnBlock">
                   <Button
+                    className="gitButt"
                     variant="secondary"
                     href="https://github.com/JKLA13/fitness-tracker"
                     target="_blank"
@@ -181,10 +181,10 @@ function Home() {
                     GitHub
                   </Button>
                   <Button
+                    className="deployButt"
                     variant="primary"
                     href="https://fitness-tracker-jkla.herokuapp.com/"
                     target="_blank"
-                    className="ml-2"
                   >
                     Deployed App
                   </Button>
@@ -200,8 +200,9 @@ function Home() {
                     with color coded hour blocks to denote time passed.{" "}
                   </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer className="btnBlock">
                   <Button
+                    className="gitButt"
                     variant="secondary"
                     href="https://github.com/JKLA13/work-day-planner"
                     target="_blank"
@@ -209,10 +210,10 @@ function Home() {
                     GitHub
                   </Button>
                   <Button
+                    className="deployButt"
                     variant="primary"
                     href="https://jkla13.github.io/work-day-planner/"
                     target="_blank"
-                    className="ml-2"
                   >
                     Deployed App
                   </Button>
@@ -229,8 +230,9 @@ function Home() {
                     play. Enjoy!
                   </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer className="btnBlock">
                   <Button
+                    className="gitButt"
                     variant="secondary"
                     href="https://scratch.mit.edu/projects/551826079/"
                     target="_blank"
@@ -238,10 +240,10 @@ function Home() {
                     (Click ===
                   </Button>
                   <Button
+                    className="deployButt"
                     variant="primary"
                     href="https://scratch.mit.edu/projects/551826079/"
                     target="_blank"
-                    className="ml-2"
                   >
                     Game Time!)
                   </Button>
@@ -252,34 +254,37 @@ function Home() {
         </Row>
       </Container>
       {/* Contact Section */}
-      <Container className="AboutMe mt-3">
+      <Container className="AboutMe mt-3 mt-3">
         <Row>
           <Col sm={2}>
             <h2>Contact</h2>
           </Col>
           <Col sm={10}>
             <Row>
-              <a href="tel:+13039218358">
-                <i class="fas fa-phone-square-alt"></i> 303.921.8358
-              </a>
-              <a href="mailto:jakeladamson0@gmail.com">
-                <i className="fas fa-envelope-square"></i>{" "}
-                jakeladamson0@gmail.com
-              </a>
-              <a
-                href="https://github.com/JKLA13"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i class="fab fa-github-square"></i> GitHub
-              </a>
-              <a
-                href="https://www.linkedin.com/in/jacob-adamson-535769103/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i class="fab fa-linkedin"></i> LinkedIn
-              </a>
+              <Form>
+                <Form.Group
+                  className="mb-3"
+                  controlId="exampleForm.ControlInput1"
+                >
+                  <Form.Label>Email address</Form.Label>
+                  <Form.Control type="email" placeholder="name@example.com" />
+                </Form.Group>
+                <Form.Group
+                  className="mb-3"
+                  controlId="exampleForm.ControlTextarea1"
+                >
+                  <Form.Label>Send me a message</Form.Label>
+                  <Form.Control as="textarea" rows={3} />
+                </Form.Group>
+                <Button
+                  className="gitButt"
+                  variant="primary"
+                  href="https://scratch.mit.edu/projects/551826079/"
+                  target="_blank"
+                >
+                  Submit
+                </Button>
+              </Form>
             </Row>
           </Col>
         </Row>

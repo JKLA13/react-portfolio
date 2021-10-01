@@ -1,3 +1,20 @@
 a {
     text-decoration: none
 }
+
+main {
+    background-color: #2ca1c2;
+}
+.gitButt {
+    margin-left: 10px
+    background-color
+}
+
+.deployButt {
+    margin-left: 30px
+}
+
+.btnBlock {
+    display: flex;
+    justify-content: center;
+}
