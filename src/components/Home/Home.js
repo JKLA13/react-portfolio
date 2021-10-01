@@ -20,7 +20,7 @@ function Home() {
   return (
     //   about me section
     <>
-      <Container className="AboutMe mt-3">
+      <Container className="mt-3" id="AboutMe">
         <Row>
           <Col sm={2} className="sectionName">
             <h2>About Me</h2>
@@ -39,7 +39,7 @@ function Home() {
         </Row>
       </Container>
       {/* // Portfolio section */}
-      <Container className="Portfolio mt-3">
+      <Container className="mt-3" id="Portfolio">
         <Row>
           <Col sm={2} className="sectionName">
             <h2>Portfolio</h2>
@@ -234,7 +234,7 @@ function Home() {
         </Row>
       </Container>
       {/* Contact Section */}
-      <Container className="AboutMe mt-3 mt-3">
+      <Container className="mt-3" id="Contact">
         <Row>
           <Col sm={2} className="sectionName">
             <h2>Contact</h2>

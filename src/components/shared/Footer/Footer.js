@@ -7,7 +7,7 @@ import ReactIcon from "../../../assets/images/favicon.ico";
 
 function Footer() {
   return (
-    <Navbar fixed="sticky" bg="dark" variant="dark">
+    <Navbar fixed="sticky" bg="dark" variant="#0d6efd">
       <Container>
         <Row>
           <a href="tel:+13039218358">
