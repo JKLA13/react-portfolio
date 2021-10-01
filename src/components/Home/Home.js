@@ -22,7 +22,7 @@ function Home() {
     <>
       <Container className="AboutMe mt-3">
         <Row>
-          <Col sm={2}>
+          <Col sm={2} className="sectionName">
             <h2>About Me</h2>
           </Col>
           <Col sm={3}>
@@ -41,7 +41,7 @@ function Home() {
       {/* // Portfolio section */}
       <Container className="Portfolio mt-3">
         <Row>
-          <Col sm={2}>
+          <Col sm={2} className="sectionName">
             <h2>Portfolio</h2>
           </Col>
           <Col sm={10}>
@@ -236,7 +236,7 @@ function Home() {
       {/* Contact Section */}
       <Container className="AboutMe mt-3 mt-3">
         <Row>
-          <Col sm={2}>
+          <Col sm={2} className="sectionName">
             <h2>Contact</h2>
           </Col>
           <Col sm={10}>
