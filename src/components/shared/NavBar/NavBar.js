@@ -18,7 +18,7 @@ function NavBar() {
             <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#Contact">Contact</Nav.Link>
             <Nav.Link
-              href="https://drive.google.com/file/d/1aIVjM-gp8WeiJ6XnyC0h7W71RUcmoXsc/view?usp=sharing"
+              href="https://docs.google.com/document/d/1HP2WiuwLLEnoOIeJCSxwgZzvDZ7aakqeQGVOp6vhe7U/edit?usp=sharing"
               target="_blank"
             >
               Resume
